@@ -29,6 +29,7 @@ services:
       FIRST_SUPERUSER_PASSWORD: ${FIRST_SUPERUSER_PASSWORD:?Variable not set}
       DATABASE_URL: postgresql://postgres:${POSTGRES_PASSWORD}@db:5432/app
       FRONTEND_HOST: http://localhost:8080
+      FASTAPI_ENV: development
     ports:
       - "8000:8000"
 

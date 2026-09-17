@@ -6,3 +6,4 @@ metadata:
 data:
   PROJECT_NAME: "CI/CD Demo App"
   FRONTEND_HOST: "http://ciid.local"
+  FASTAPI_ENV: "development"

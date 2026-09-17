@@ -6,7 +6,7 @@ COPY package.json ./
 RUN npm install
 
 COPY . .
-RUN npm run build
+RUN npx tsc -p tsconfig.build.json && npx vite build --outDir dist
 
 FROM nginx:1.27-alpine
 

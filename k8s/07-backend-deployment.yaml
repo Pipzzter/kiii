@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: REPLACE_DOCKERHUB_USERNAME/ciid-project-backend:latest
+          image: pipzter/ciid-project-backend:latest
           ports:
             - containerPort: 8000
           envFrom:

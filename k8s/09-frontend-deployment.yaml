@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: REPLACE_DOCKERHUB_USERNAME/ciid-project-frontend:latest
+          image: pipzter/ciid-project-frontend:latest
           ports:
             - containerPort: 80
           readinessProbe:
